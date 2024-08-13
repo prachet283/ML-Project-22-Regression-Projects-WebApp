@@ -24,9 +24,9 @@ with open("Best Features/ML-Project-3-House_Price_Prediction/Updated/best_featur
     best_features_xgb_house_price = json.load(file)
 with open("Models/ML-Project-3-House_Price_Prediction/Updated/house_price_prediction_trained_lr_model.sav", 'rb') as f:
     loaded_model_lr_house_price = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-3-House_Price_Prediction/Updated/house_price_prediction_trained_rfr_model.sav", 'rb') as f:
+with open("Models/ML-Project-3-House_Price_Prediction/Updated/house_price_prediction_trained_rfr_model.sav", 'rb') as f:
     loaded_model_rfr_house_price = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-3-House_Price_Prediction/Updated/house_price_prediction_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-3-House_Price_Prediction/Updated/house_price_prediction_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_house_price = pickle.load(f)
 
 
