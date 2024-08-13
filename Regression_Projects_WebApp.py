@@ -12,7 +12,7 @@ import pandas as pd
 
 
 #loading the saved model of house price prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-3-House_Price_Prediction/Updated/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-3-House_Price_Prediction/Updated/columns.pkl", 'rb') as f:
     all_columns_house_price = pickle.load(f)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-3-House_Price_Prediction/Updated/scaler.pkl", 'rb') as f:
     scaler_house_price = pickle.load(f)
