@@ -40,7 +40,7 @@ with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/encoder.
     encoder_car_price = pickle.load(f)
 with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/encoded_columns.pkl", 'rb') as f:
     encoded_columns_car_price = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-7-Car Price Prediction/Updated/training_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/training_columns.pkl", 'rb') as f:
     training_columns_car_price = pickle.load(f)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-7-Car Price Prediction/Updated/scaler.pkl", 'rb') as f:
     scaler_car_price = pickle.load(f)
