@@ -18,15 +18,15 @@ with open("Preprocessing File/ML-Project-3-House_Price_Prediction/scaler.pkl", '
     scaler_house_price = pickle.load(f)
 with open("Best Features/ML-Project-3-House_Price_Prediction/best_features_lr.json", 'r') as file:
     best_features_lr_house_price = json.load(file)
-with open("Best Features/ML-Project-3-House_Price_Prediction/Updated/best_features_rfr.json", 'r') as file:
+with open("Best Features/ML-Project-3-House_Price_Prediction/best_features_rfr.json", 'r') as file:
     best_features_rfr_house_price = json.load(file)
-with open("Best Features/ML-Project-3-House_Price_Prediction/Updated/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-3-House_Price_Prediction/best_features_xgb.json", 'r') as file:
     best_features_xgb_house_price = json.load(file)
-with open("Models/ML-Project-3-House_Price_Prediction/Updated/house_price_prediction_trained_lr_model.sav", 'rb') as f:
+with open("Models/ML-Project-3-House_Price_Prediction/house_price_prediction_trained_lr_model.sav", 'rb') as f:
     loaded_model_lr_house_price = pickle.load(f)
-with open("Models/ML-Project-3-House_Price_Prediction/Updated/house_price_prediction_trained_rfr_model.sav", 'rb') as f:
+with open("Models/ML-Project-3-House_Price_Prediction/house_price_prediction_trained_rfr_model.sav", 'rb') as f:
     loaded_model_rfr_house_price = pickle.load(f)
-with open("Models/ML-Project-3-House_Price_Prediction/Updated/house_price_prediction_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-3-House_Price_Prediction/house_price_prediction_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_house_price = pickle.load(f)
 
 
