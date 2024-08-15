@@ -50,11 +50,11 @@ with open("Best Features/ML-Project-7-Car Price Prediction/Updated/best_features
     best_features_rfr_car_price = json.load(file)
 with open("Best Features/ML-Project-7-Car Price Prediction/Updated/best_features_lr.json", 'r') as file:
     best_features_lr_car_price = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-7-Car Price Prediction/Updated/car_price_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-7-Car Price Prediction/Updated/car_price_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_car_price = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-7-Car Price Prediction/Updated/car_price_trained_rfr_model.sav", 'rb') as f:
+with open("Models/ML-Project-7-Car Price Prediction/Updated/car_price_trained_rfr_model.sav", 'rb') as f:
     loaded_model_rfr_car_price = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-7-Car Price Prediction/Updated/car_price_trained_lr_model.sav", 'rb') as f:
+with open("Models/ML-Project-7-Car Price Prediction/Updated/car_price_trained_lr_model.sav", 'rb') as f:
     loaded_model_lr_car_price = pickle.load(f)
 
 
