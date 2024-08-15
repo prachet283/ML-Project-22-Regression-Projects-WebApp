@@ -44,11 +44,11 @@ with open("Preprocessing File/ML-Project-7-Car Price Prediction/training_columns
     training_columns_car_price = pickle.load(f)
 with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/scaler.pkl", 'rb') as f:
     scaler_car_price = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-7-Car Price Prediction/Updated/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-7-Car Price Prediction/Updated/best_features_xgb.json", 'r') as file:
     best_features_xgb_car_price = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-7-Car Price Prediction/Updated/best_features_rfr.json", 'r') as file:
+with open("Best Features/ML-Project-7-Car Price Prediction/Updated/best_features_rfr.json", 'r') as file:
     best_features_rfr_car_price = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-7-Car Price Prediction/Updated/best_features_lr.json", 'r') as file:
+with open("Best Features/ML-Project-7-Car Price Prediction/Updated/best_features_lr.json", 'r') as file:
     best_features_lr_car_price = json.load(file)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-7-Car Price Prediction/Updated/car_price_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_car_price = pickle.load(f)
