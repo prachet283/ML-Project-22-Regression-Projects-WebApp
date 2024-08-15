@@ -32,15 +32,15 @@ with open("Models/ML-Project-3-House_Price_Prediction/house_price_prediction_tra
 
 
 #loading the saved model of car price prediction
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car Price Prediction/columns.pkl", 'rb') as f:
     all_columns_car_price = pickle.load(f)
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/cat_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car Price Prediction/cat_columns.pkl", 'rb') as f:
     cat_columns_car_price = pickle.load(f)
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/encoder.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car Price Prediction/encoder.pkl", 'rb') as f:
     encoder_car_price = pickle.load(f)
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/encoded_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car Price Prediction/encoded_columns.pkl", 'rb') as f:
     encoded_columns_car_price = pickle.load(f)
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/training_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car Price Prediction/training_columns.pkl", 'rb') as f:
     training_columns_car_price = pickle.load(f)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-7-Car Price Prediction/Updated/scaler.pkl", 'rb') as f:
     scaler_car_price = pickle.load(f)
