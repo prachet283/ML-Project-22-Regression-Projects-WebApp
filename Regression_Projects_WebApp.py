@@ -16,11 +16,11 @@ with open("Preprocessing File/ML-Project-3-House_Price_Prediction/columns.pkl", 
     all_columns_house_price = pickle.load(f)
 with open("Preprocessing File/ML-Project-3-House_Price_Prediction/scaler.pkl", 'rb') as f:
     scaler_house_price = pickle.load(f)
-with open("Best Features\ML-Project-3-House_Price_Prediction_Best_Features\best_features_lr.json", 'r') as file:
+with open("Best Features/ML-Project-3-House_Price_Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_house_price = json.load(file)
-with open("Best Features\ML-Project-3-House_Price_Prediction_Best_Features\best_features_rfr.json", 'r') as file:
+with open("Best Features/ML-Project-3-House_Price_Prediction_Best_Features/best_features_rfr.json", 'r') as file:
     best_features_rfr_house_price = json.load(file)
-with open("Best Features\ML-Project-3-House_Price_Prediction_Best_Features\best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-3-House_Price_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_house_price = json.load(file)
 with open("Models/ML-Project-3-House_Price_Prediction/house_price_prediction_trained_lr_model.sav", 'rb') as f:
     loaded_model_lr_house_price = pickle.load(f)
@@ -44,11 +44,11 @@ with open("Preprocessing File/ML-Project-7-Car Price Prediction/training_columns
     training_columns_car_price = pickle.load(f)
 with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/scaler.pkl", 'rb') as f:
     scaler_car_price = pickle.load(f)
-with open("Best Features/ML-Project-7-Car Price Prediction/Updated/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-7-Car_Price_Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_xgb_car_price = json.load(file)
-with open("Best Features/ML-Project-7-Car Price Prediction/Updated/best_features_rfr.json", 'r') as file:
+with open("Best Features/ML-Project-7-Car_Price_Prediction_Best_Features/best_features_rfr.json", 'r') as file:
     best_features_rfr_car_price = json.load(file)
-with open("Best Features/ML-Project-7-Car Price Prediction/Updated/best_features_lr.json", 'r') as file:
+with open("Best Features/ML-Project-7-Car_Price_Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_car_price = json.load(file)
 with open("Models/ML-Project-7-Car Price Prediction/Updated/car_price_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_car_price = pickle.load(f)
