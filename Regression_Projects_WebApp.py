@@ -63,11 +63,11 @@ with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Deskt
     all_columns_gold_price = pickle.load(f)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-8-Gold Price Prediction/Updated/scaler.pkl", 'rb') as f:
     scalers_gold_price = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-8-Gold Price Prediction/Updated/best_features_knr.json", 'r') as file:
+with open("Best Features/ML-Project-8-Gold_Price_Prediction_Best_Features/best_features_knr.json", 'r') as file:
     best_features_knr_gold_price = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-8-Gold Price Prediction/Updated/best_features_rfr.json", 'r') as file:
+with open("Best Features/ML-Project-8-Gold_Price_Prediction_Best_Features/best_features_rfr.json", 'r') as file:
     best_features_rfr_gold_price = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-8-Gold Price Prediction/Updated/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-8-Gold_Price_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_gold_price = json.load(file)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-8-Gold Price Prediction/Updated/gold_price_prediction_trained_knr_model.sav", 'rb') as f:
     loaded_model_knr_gold_price = pickle.load(f)
