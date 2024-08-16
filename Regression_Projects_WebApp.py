@@ -44,7 +44,7 @@ with open("Preprocessing File/ML-Project-7-Car Price Prediction/training_columns
     training_columns_car_price = pickle.load(f)
 with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/scaler.pkl", 'rb') as f:
     scaler_car_price = pickle.load(f)
-with open("Best Features/ML-Project-7-Car_Price_Prediction_Best_Features/best_features_lr.json", 'r') as file:
+with open("Best Features/ML-Project-7-Car_Price_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_car_price = json.load(file)
 with open("Best Features/ML-Project-7-Car_Price_Prediction_Best_Features/best_features_rfr.json", 'r') as file:
     best_features_rfr_car_price = json.load(file)
@@ -90,7 +90,7 @@ with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Deskt
     training_columns_medical_insurance_cost = pickle.load(f)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/Updated/scaler.pkl", 'rb') as f:
     scaler_medical_insurance_cost = pickle.load(f)
-with open("Best Features/ML-Project-11-Medical_Insurance_Cost_Prediction_Best_Features/best_features_knr.json", 'r') as file:
+with open("Best Features/ML-Project-11-Medical_Insurance_Cost_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_medical_insurance_cost = json.load(file)
 with open("Best Features/ML-Project-11-Medical_Insurance_Cost_Prediction_Best_Features/best_features_rfr.json", 'r') as file:
     best_features_rfr_medical_insurance_cost = json.load(file)
@@ -117,7 +117,7 @@ with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Deskt
     training_columns_big_mart_sales = pickle.load(f)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/scaler.pkl", 'rb') as f:
     scaler_big_mart_sales = pickle.load(f)
-with open("Best Features/ML-Project-12-Big Mart Sales Prediction_Best_Features/best_features_lr.json", 'r') as file:
+with open("Best Features/ML-Project-12-Big Mart Sales Prediction_Best_Features/best_features_ls.json", 'r') as file:
     best_features_ls_big_mart_sales = json.load(file)
 with open("Best Features/ML-Project-12-Big Mart Sales Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_big_mart_sales = json.load(file)
@@ -136,11 +136,11 @@ with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Deskt
     all_columns_calorie_burnt = pickle.load(f)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/Updated/scaler.pkl", 'rb') as f:
     scalers_calorie_burnt = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/Updated/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-16-Calories_Burnt_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_calorie_burnt = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/Updated/best_features_rfr.json", 'r') as file:
+with open("Best Features/ML-Project-16-Calories_Burnt_Prediction_Best_Features/best_features_rfr.json", 'r') as file:
     best_features_rfr_calorie_burnt = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/Updated/best_features_knr.json", 'r') as file:
+with open("Best Features/ML-Project-16-Calories_Burnt_Prediction_Best_Features/best_features_knr.json", 'r') as file:
     best_features_knr_calorie_burnt = json.load(file)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/Updated/calories_burnt_prediction_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_calorie_burnt = pickle.load(f)
