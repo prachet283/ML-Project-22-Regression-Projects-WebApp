@@ -117,11 +117,11 @@ with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Deskt
     training_columns_big_mart_sales = pickle.load(f)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/scaler.pkl", 'rb') as f:
     scaler_big_mart_sales = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/best_features_ls.json", 'r') as file:
+with open("Best Features/ML-Project-12-Big Mart Sales Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_ls_big_mart_sales = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/best_features_lr.json", 'r') as file:
+with open("Best Features/ML-Project-12-Big Mart Sales Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_big_mart_sales = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-12-Big Mart Sales Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_big_mart_sales = json.load(file)
 with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/big_mart_sales_trained_ls_model.sav", 'rb') as f:
     loaded_model_ls_big_mart_sales = pickle.load(f)
