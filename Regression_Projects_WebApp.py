@@ -142,11 +142,11 @@ with open("Best Features/ML-Project-16-Calories_Burnt_Prediction_Best_Features/b
     best_features_rfr_calorie_burnt = json.load(file)
 with open("Best Features/ML-Project-16-Calories_Burnt_Prediction_Best_Features/best_features_knr.json", 'r') as file:
     best_features_knr_calorie_burnt = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/Updated/calories_burnt_prediction_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-16-Calories_Burnt_Prediction_Models/calories_burnt_prediction_trained_knr_model.sav", 'rb') as f:
     loaded_model_xgb_calorie_burnt = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/Updated/calories_burnt_prediction_trained_rfr_model.sav", 'rb') as f:
+with open("Models/ML-Project-16-Calories_Burnt_Prediction_Models/calories_burnt_prediction_trained_rfr_model.sav", 'rb') as f:
     loaded_model_rfr_calorie_burnt = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/Updated/calories_burnt_prediction_trained_knr_model.sav", 'rb') as f:
+with open("Models/ML-Project-16-Calories_Burnt_Prediction_Models/calories_burnt_prediction_trained_knr_model.sav", 'rb') as f:
     loaded_model_knr_calorie_burnt = pickle.load(f)
 
 #creating a function for house price prediction
