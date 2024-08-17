@@ -96,11 +96,11 @@ with open("Best Features/ML-Project-11-Medical_Insurance_Cost_Prediction_Best_Fe
     best_features_rfr_medical_insurance_cost = json.load(file)
 with open("Best Features/ML-Project-11-Medical_Insurance_Cost_Prediction_Best_Features/best_features_knr.json", 'r') as file:
     best_features_knr_medical_insurance_cost = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/Updated/medical_insurance_price_trained_rfr_model.sav", 'rb') as f:
+with open("Models/ML-Project-11-Medical_Insurance_Cost_Prediction_Models/medical_insurance_price_trained_rfr_model.sav", 'rb') as f:
     loaded_model_rfr_medical_insurance_cost = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/Updated/medical_insurance_price_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-11-Medical_Insurance_Cost_Prediction_Models/medical_insurance_price_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_medical_insurance_cost = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/Updated/medical_insurance_price_trained_knr_model.sav", 'rb') as f:
+with open("Models/ML-Project-11-Medical_Insurance_Cost_Prediction_Models/medical_insurance_price_trained_knr_model.sav", 'rb') as f:
     loaded_model_knr_medical_insurance_cost = pickle.load(f)
 
 
