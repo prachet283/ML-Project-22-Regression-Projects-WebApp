@@ -50,7 +50,7 @@ with open("Best Features/ML-Project-7-Car_Price_Prediction_Best_Features/best_fe
     best_features_rfr_car_price = json.load(file)
 with open("Best Features/ML-Project-7-Car_Price_Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_car_price = json.load(file)
-with open("Models/ML-Project-7-Car_Price_Prediction_Models/car_price_trained_lr_model.sav", 'rb') as f:
+with open("Models/ML-Project-7-Car_Price_Prediction_Models/car_price_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_car_price = pickle.load(f)
 with open("Models/ML-Project-7-Car_Price_Prediction_Models/car_price_trained_rfr_model.sav", 'rb') as f:
     loaded_model_rfr_car_price = pickle.load(f)
@@ -69,11 +69,11 @@ with open("Best Features/ML-Project-8-Gold_Price_Prediction_Best_Features/best_f
     best_features_rfr_gold_price = json.load(file)
 with open("Best Features/ML-Project-8-Gold_Price_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_gold_price = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-8-Gold Price Prediction/Updated/gold_price_prediction_trained_knr_model.sav", 'rb') as f:
+with open("Models/ML-Project-8-Gold_Price_Prediction_Models/gold_price_prediction_trained_knr_model.sav", 'rb') as f:
     loaded_model_knr_gold_price = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-8-Gold Price Prediction/Updated/gold_price_prediction_trained_rfr_model.sav", 'rb') as f:
+with open("Models/ML-Project-8-Gold_Price_Prediction_Models/gold_price_prediction_trained_rfr_model.sav", 'rb') as f:
     loaded_model_rfr_gold_price = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-8-Gold Price Prediction/Updated/gold_price_prediction_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-8-Gold_Price_Prediction_Models/gold_price_prediction_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_gold_price = pickle.load(f)
 
 
