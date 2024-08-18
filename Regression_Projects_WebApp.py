@@ -105,17 +105,17 @@ with open("Models/ML-Project-11-Medical_Insurance_Cost_Prediction_Models/medical
 
 
 #loading the saved model of big mart sales prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-12-Big Mart Sales Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
     all_columns_big_mart_sales = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/cat_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-12-Big Mart Sales Prediction_Preprocessing_Files/cat_columns.pkl", 'rb') as f:
     cat_columns_big_mart_sales = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/encoder.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-12-Big Mart Sales Prediction_Preprocessing_Files/encoder.pkl", 'rb') as f:
     encoder_big_mart_sales = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/encoded_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-12-Big Mart Sales Prediction_Preprocessing_Files/encoded_columns.pkl", 'rb') as f:
     encoded_columns_big_mart_sales = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/training_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-12-Big Mart Sales Prediction_Preprocessing_Files/training_columns.pkl", 'rb') as f:
     training_columns_big_mart_sales = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-12-Big Mart Sales Prediction/Updated/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-12-Big Mart Sales Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
     scaler_big_mart_sales = pickle.load(f)
 with open("Best Features/ML-Project-12-Big Mart Sales Prediction_Best_Features/best_features_ls.json", 'r') as file:
     best_features_ls_big_mart_sales = json.load(file)
