@@ -59,9 +59,9 @@ with open("Models/ML-Project-7-Car_Price_Prediction_Models/car_price_trained_lr_
 
 
 #loading the saved model of gold price prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-8-Gold Price Prediction/Updated/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-8-Gold_Price_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
     all_columns_gold_price = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-8-Gold Price Prediction/Updated/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-8-Gold_Price_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
     scalers_gold_price = pickle.load(f)
 with open("Best Features/ML-Project-8-Gold_Price_Prediction_Best_Features/best_features_knr.json", 'r') as file:
     best_features_knr_gold_price = json.load(file)
