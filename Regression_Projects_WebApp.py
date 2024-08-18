@@ -32,17 +32,17 @@ with open("Models/ML-Project-3-House_Price_Prediction_Models/house_price_predict
 
 
 #loading the saved model of car price prediction
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car_Price_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
     all_columns_car_price = pickle.load(f)
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/cat_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car_Price_Prediction_Preprocessing_Files/cat_columns.pkl", 'rb') as f:
     cat_columns_car_price = pickle.load(f)
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/encoder.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car_Price_Prediction_Preprocessing_Files/encoder.pkl", 'rb') as f:
     encoder_car_price = pickle.load(f)
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/encoded_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car_Price_Prediction_Preprocessing_Files/encoded_columns.pkl", 'rb') as f:
     encoded_columns_car_price = pickle.load(f)
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/training_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car_Price_Prediction_Preprocessing_Files/training_columns.pkl", 'rb') as f:
     training_columns_car_price = pickle.load(f)
-with open("Preprocessing File/ML-Project-7-Car Price Prediction/Updated/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-7-Car_Price_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
     scaler_car_price = pickle.load(f)
 with open("Best Features/ML-Project-7-Car_Price_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_car_price = json.load(file)
