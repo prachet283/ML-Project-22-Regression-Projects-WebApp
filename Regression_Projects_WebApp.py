@@ -132,9 +132,9 @@ with open("Models/ML-Project-12-Big Mart Sales Prediction_Models/big_mart_sales_
 
 
 #loading the saved model calorie burnt prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/Updated/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-16-Calories_Burnt_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
     all_columns_calorie_burnt = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/Updated/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-16-Calories_Burnt_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
     scalers_calorie_burnt = pickle.load(f)
 with open("Best Features/ML-Project-16-Calories_Burnt_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_calorie_burnt = json.load(file)
