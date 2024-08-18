@@ -78,17 +78,17 @@ with open("Models/ML-Project-8-Gold_Price_Prediction_Models/gold_price_predictio
 
 
 #loading the saved model of medical insurance cost prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/Updated/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-11-Medical_Insurance_Cost_Prediction_Preprocessing_Files/olumns.pkl", 'rb') as f:
     all_columns_medical_insurance_cost = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/Updated/cat_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-11-Medical_Insurance_Cost_Prediction_Preprocessing_Files/cat_columns.pkl", 'rb') as f:
     cat_columns_medical_insurance_cost = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/Updated/encoder.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-11-Medical_Insurance_Cost_Prediction_Preprocessing_Files/encoder.pkl", 'rb') as f:
     encoder_medical_insurance_cost = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/Updated/encoded_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-11-Medical_Insurance_Cost_Prediction_Preprocessing_Files/encoded_columns.pkl", 'rb') as f:
     encoded_columns_medical_insurance_cost = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/Updated/training_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-11-Medical_Insurance_Cost_Prediction_Preprocessing_Files/training_columns.pkl", 'rb') as f:
     training_columns_medical_insurance_cost = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-11-Medical Insurance Cost Prediction/Updated/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-11-Medical_Insurance_Cost_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
     scaler_medical_insurance_cost = pickle.load(f)
 with open("Best Features/ML-Project-11-Medical_Insurance_Cost_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_medical_insurance_cost = json.load(file)
