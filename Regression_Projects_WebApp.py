@@ -12,9 +12,9 @@ import pandas as pd
 
 
 #loading the saved model of house price prediction
-with open("Preprocessing File/ML-Project-3-House_Price_Prediction/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-3-House_Price_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
     all_columns_house_price = pickle.load(f)
-with open("Preprocessing File/ML-Project-3-House_Price_Prediction/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-3-House_Price_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
     scaler_house_price = pickle.load(f)
 with open("Best Features/ML-Project-3-House_Price_Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_house_price = json.load(file)
