@@ -165,10 +165,10 @@ def house_price_prediction(input_data):
     
     #predictions
     prediction1_house_price = loaded_model_lr_house_price.predict(df_best_features_lr_house_price)
-    prediction2_house_price = loaded_model_rfr_house_price.predict(df_best_features_rfr_house_price)
+    #prediction2_house_price = loaded_model_rfr_house_price.predict(df_best_features_rfr_house_price)
     prediction3_house_price = loaded_model_xgb_house_price.predict(df_best_features_xgb_house_price)
     
-    return prediction1_house_price , prediction2_house_price, prediction3_house_price
+    return prediction1_house_price ,''' prediction2_house_price ''', prediction3_house_price
 
 
 
@@ -203,7 +203,7 @@ def car_price_prediction(input_data):
     prediction2_car_price = loaded_model_rfr_car_price.predict(df_best_features_rfr_car_price)
     prediction3_car_price = loaded_model_lr_car_price.predict(df_best_features_lr_car_price)
     
-    return prediction1_car_price , prediction2_car_price , prediction3_car_price
+    return prediction1_car_price , prediction2_car_price, prediction3_car_price
 
 
 #creating a function for gold price prediction
@@ -222,10 +222,10 @@ def gold_price_prediction(input_data):
     
     #predictions
     prediction1_gold_price = loaded_model_knr_gold_price.predict(df_best_features_knr_gold_price)
-    prediction2_gold_price = loaded_model_rfr_gold_price.predict(df_best_features_rfr_gold_price)
+    #prediction2_gold_price = loaded_model_rfr_gold_price.predict(df_best_features_rfr_gold_price)
     prediction3_gold_price = loaded_model_xgb_gold_price.predict(df_best_features_xgb_gold_price)
     
-    return prediction1_gold_price , prediction2_gold_price , prediction3_gold_price
+    return prediction1_gold_price ,''' prediction2_gold_price''' , prediction3_gold_price
 
 
 #creating a function for medical insurance cost prediction
@@ -312,10 +312,10 @@ def calorie_burnt_prediction(input_data):
     
     #predictions
     prediction1_calorie_burnt = loaded_model_xgb_calorie_burnt.predict(df_best_features_xgb_calorie_burnt)
-    prediction2_calorie_burnt = loaded_model_rfr_calorie_burnt.predict(df_best_features_rfr_calorie_burnt)
+    #prediction2_calorie_burnt = loaded_model_rfr_calorie_burnt.predict(df_best_features_rfr_calorie_burnt)
     prediction3_calorie_burnt = loaded_model_knr_calorie_burnt.predict(df_best_features_knr_calorie_burnt)
 
-    return prediction1_calorie_burnt , prediction2_calorie_burnt , prediction3_calorie_burnt
+    return prediction1_calorie_burnt , '''prediction2_calorie_burnt''' , prediction3_calorie_burnt
 
 
 def main():
