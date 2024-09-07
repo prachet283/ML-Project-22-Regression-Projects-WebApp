@@ -634,13 +634,13 @@ def main():
         if st.button("Predict Calories Burnt"):
             prediction = calorie_burnt_prediction_xgb[0]
             prediction = "{:.4f}".format(prediction)
-            st.write(f"The Predicted Sales: {prediction} $")
+            st.write(f"The Calories Burnt: {prediction} cal")
         
         if st.checkbox("Show Advanced Options"):
             if st.button("Predict Calories Burnt with XG Boost Regressor Model"):
                 prediction = calorie_burnt_prediction_xgb[0]
                 prediction = "{:.4f}".format(prediction)
-                st.write(f"The Predicted Price: {prediction} $")
+                st.write(f"The Calories Burnt: {prediction} cal")
             if st.button("Predict Calories Burnt with Random Forest Regressor Model"):
                 # prediction = calorie_burnt_prediction_rfr[0]
                 # prediction = "{:.4f}".format(prediction)
@@ -649,7 +649,7 @@ def main():
             if st.button("Predict Calories Burnt with K Neighbors Regressor Model"):
                 prediction = calorie_burnt_prediction_knr[0]
                 prediction = "{:.4f}".format(prediction)
-                st.write(f"The Predicted Price: {prediction} $")
+                st.write(f"The Calories Burnt: {prediction} cal")
     
 if __name__ == '__main__':
     main()
