@@ -78,7 +78,7 @@ with open("Models/ML-Project-8-Gold_Price_Prediction_Models/gold_price_predictio
 
 
 #loading the saved model of medical insurance cost prediction
-with open("Preprocessing File/ML-Project-11-Medical_Insurance_Cost_Prediction_Preprocessing_Files/olumns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-11-Medical_Insurance_Cost_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
     all_columns_medical_insurance_cost = pickle.load(f)
 with open("Preprocessing File/ML-Project-11-Medical_Insurance_Cost_Prediction_Preprocessing_Files/cat_columns.pkl", 'rb') as f:
     cat_columns_medical_insurance_cost = pickle.load(f)
