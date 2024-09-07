@@ -628,7 +628,7 @@ def main():
         calorie_burnt_prediction_knr = ''
         
     
-        calorie_burnt_prediction_xgb,calorie_burnt_prediction_rfr,calorie_burnt_prediction_knr = calorie_burnt_prediction((gender,age,height,weight,duration,heart_rate,body_temp))
+        calorie_burnt_prediction_xgb,'''calorie_burnt_prediction_rfr,'''calorie_burnt_prediction_knr = calorie_burnt_prediction((gender,age,height,weight,duration,heart_rate,body_temp))
             
         #creating a button for Prediction
         if st.button("Predict Calories Burnt"):
@@ -642,9 +642,10 @@ def main():
                 prediction = "{:.4f}".format(prediction)
                 st.write(f"The Predicted Price: {prediction} $")
             if st.button("Predict Calories Burnt with Random Forest Regressor Model"):
-                prediction = calorie_burnt_prediction_rfr[0]
-                prediction = "{:.4f}".format(prediction)
-                st.write(f"The Predicted Price: {prediction} $")
+                # prediction = calorie_burnt_prediction_rfr[0]
+                # prediction = "{:.4f}".format(prediction)
+                # st.write(f"The Predicted Price: {prediction} $")
+                st.write(f"Model is above 50mb thus not loaded")
             if st.button("Predict Calories Burnt with K Neighbors Regressor Model"):
                 prediction = calorie_burnt_prediction_knr[0]
                 prediction = "{:.4f}".format(prediction)
