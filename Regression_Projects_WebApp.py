@@ -391,7 +391,7 @@ def main():
         house_price_prediction_xgb = ''
         
     
-        house_price_prediction_lr,house_price_prediction_rfr,house_price_prediction_xgb = house_price_prediction([SquareMeters,NumberOfRooms,HasYard,HasPool,Floors,CityCode,CityPartRange,NumPrevOwners,Made,IsNewBuilt,HasStormProtector,Basement,Attic,Garage,HasStorageRoom,HasGuestRoom])
+        house_price_prediction_lr,'''house_price_prediction_rfr,'''house_price_prediction_xgb = house_price_prediction([SquareMeters,NumberOfRooms,HasYard,HasPool,Floors,CityCode,CityPartRange,NumPrevOwners,Made,IsNewBuilt,HasStormProtector,Basement,Attic,Garage,HasStorageRoom,HasGuestRoom])
             
         #creating a button for Prediction
         if st.button("Predict House Price"):
@@ -405,9 +405,10 @@ def main():
                 prediction = "{:.2f}".format(prediction)
                 st.write(f"The Predicted Price: {prediction} $")
             if st.button("Predict House Price with Random Forest Regressor Model"):
-                prediction = house_price_prediction_rfr[0]
-                prediction = "{:.2f}".format(prediction)
-                st.write(f"The Predicted Price: {prediction} $")
+                # prediction = house_price_prediction_rfr[0]
+                # prediction = "{:.2f}".format(prediction)
+                # st.write(f"The Predicted Price: {prediction} $")
+                st.write(f"Model is above 50mb thus not loaded")
             if st.button("Predict House Price with XG Boost Regressor"):
                 prediction = house_price_prediction_xgb[0]
                 prediction = "{:.2f}".format(prediction)
@@ -481,7 +482,7 @@ def main():
         gold_price_prediction_xgb = ''
         
     
-        gold_price_prediction_knr,gold_price_prediction_rfr,gold_price_prediction_xgb = gold_price_prediction((SPX,USO,SLV,EUR_USD))
+        gold_price_prediction_knr,'''gold_price_prediction_rfr,'''gold_price_prediction_xgb = gold_price_prediction((SPX,USO,SLV,EUR_USD))
             
         #creating a button for Prediction
         if st.button("Predict Gold Price"):
@@ -495,9 +496,10 @@ def main():
                 prediction = "{:.4f}".format(prediction)
                 st.write(f"The Predicted Price: {prediction} $")
             if st.button("Predict Gold Price with Random Forest Regressor Model"):
-                prediction = gold_price_prediction_rfr[0]
-                prediction = "{:.4f}".format(prediction)
-                st.write(f"The Predicted Price: {prediction} $")
+                # prediction = gold_price_prediction_rfr[0]
+                # prediction = "{:.4f}".format(prediction)
+                # st.write(f"The Predicted Price: {prediction} $")
+                st.write(f"Model is above 50mb thus not loaded")
             if st.button("Predict Gold Price with XG Boost Regressor Model"):
                 prediction = gold_price_prediction_xgb[0]
                 prediction = "{:.4f}".format(prediction)
