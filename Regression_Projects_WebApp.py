@@ -18,8 +18,8 @@ with open("Preprocessing File/ML-Project-3-House_Price_Prediction_Preprocessing_
     scaler_house_price = pickle.load(f)
 with open("Best Features/ML-Project-3-House_Price_Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_house_price = json.load(file)
-with open("Best Features/ML-Project-3-House_Price_Prediction_Best_Features/best_features_rfr.json", 'r') as file:
-    best_features_rfr_house_price = json.load(file)
+#with open("Best Features/ML-Project-3-House_Price_Prediction_Best_Features/best_features_rfr.json", 'r') as file:
+#   best_features_rfr_house_price = json.load(file)
 with open("Best Features/ML-Project-3-House_Price_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_house_price = json.load(file)
 with open("Models/ML-Project-3-House_Price_Prediction_Models/house_price_prediction_trained_lr_model.sav", 'rb') as f:
@@ -71,8 +71,8 @@ with open("Best Features/ML-Project-8-Gold_Price_Prediction_Best_Features/best_f
     best_features_xgb_gold_price = json.load(file)
 with open("Models/ML-Project-8-Gold_Price_Prediction_Models/gold_price_prediction_trained_knr_model.sav", 'rb') as f:
     loaded_model_knr_gold_price = pickle.load(f)
-with open("Models/ML-Project-8-Gold_Price_Prediction_Models/gold_price_prediction_trained_rfr_model.sav", 'rb') as f:
-    loaded_model_rfr_gold_price = pickle.load(f)
+#with open("Models/ML-Project-8-Gold_Price_Prediction_Models/gold_price_prediction_trained_rfr_model.sav", 'rb') as f:
+#    loaded_model_rfr_gold_price = pickle.load(f)
 with open("Models/ML-Project-8-Gold_Price_Prediction_Models/gold_price_prediction_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_gold_price = pickle.load(f)
 
