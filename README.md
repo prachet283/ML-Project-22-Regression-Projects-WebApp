@@ -63,11 +63,11 @@ This will launch the web app in your default web browser. You can select the des
 ### Gold Price Prediction
 **Description**: Predicts the price of gold based on historical data, including currency exchange rates, inflation rates, and global financial indicators.
 
-Medical Insurance Cost Prediction
-Description: Predicts insurance premiums based on features like age, BMI, smoking status, and medical conditions.
+### Medical Insurance Cost Prediction
+**Description**: Predicts insurance premiums based on features like age, BMI, smoking status, and medical conditions.
 
-Big Mart Sales Prediction
-Description: Predicts sales for various items in different stores based on factors such as store type, item visibility, and marketing data.
+### Big Mart Sales Prediction
+**Description**: Predicts sales for various items in different stores based on factors such as store type, item visibility, and marketing data.
 
 Calories Burnt Prediction
 Description: Predicts the number of calories burnt based on physical activities, age, weight, and duration of exercise.
