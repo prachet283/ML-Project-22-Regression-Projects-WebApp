@@ -69,7 +69,7 @@ This will launch the web app in your default web browser. You can select the des
 ### Big Mart Sales Prediction
 **Description**: Predicts sales for various items in different stores based on factors such as store type, item visibility, and marketing data.
 
-Calories Burnt Prediction
-Description: Predicts the number of calories burnt based on physical activities, age, weight, and duration of exercise.
+### Calories Burnt Prediction
+**Description**: Predicts the number of calories burnt based on physical activities, age, weight, and duration of exercise.
 
 
