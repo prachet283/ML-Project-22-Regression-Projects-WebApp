@@ -52,6 +52,24 @@ streamlit run streamlit_app.py
 
 This will launch the web app in your default web browser. You can select the desired regression project from the sidebar and input the required features to get a prediction.
 
+## Dataset Description
 
+### House Price Prediction
+**Description**: Predicts house prices based on features such as location, square footage, number of bedrooms, and other property details.
+
+Car Price Prediction
+Description: Predicts car prices based on attributes like brand, model, year of manufacture, mileage, and engine specifications.
+
+Gold Price Prediction
+Description: Predicts the price of gold based on historical data, including currency exchange rates, inflation rates, and global financial indicators.
+
+Medical Insurance Cost Prediction
+Description: Predicts insurance premiums based on features like age, BMI, smoking status, and medical conditions.
+
+Big Mart Sales Prediction
+Description: Predicts sales for various items in different stores based on factors such as store type, item visibility, and marketing data.
+
+Calories Burnt Prediction
+Description: Predicts the number of calories burnt based on physical activities, age, weight, and duration of exercise.
 
 
