@@ -98,3 +98,39 @@ Each classification project was developed through the following steps:
     - Performed hyperparameter tuning using Grid Search CV
     - Built the final model with the best hyperparameters and features
     - Evaluated the model using mean squared error, R-squared score, and other relevant metrics
+
+## Models Used
+
+The top 3 models for each classification project are as follows:
+
+### House Price Prediction
+- Support Vector Classifier: Effective in high-dimensional spaces.
+- XGBoost: Boosting algorithm known for high performance.
+- Random Forest Classifier: Ensemble method that reduces overfitting.
+
+### Car Price Prediction
+- Logistic Regression: Interpretable and performs well with classification.
+- XGBoost: Boosting algorithm known for high performance.
+- K-Nearest Neighbour: Simple algorithm that works well with small datasets.
+
+### Gold Price Prediction
+- Logistic Regression: Interpretable and performs well with classification.
+- XGBoost: Boosting algorithm known for high performance.
+- K-Nearest Neighbour: Simple algorithm that works well with small datasets.
+
+### Medical Insurance Cost Prediction
+- XGBoost: Excellent performance with complex datasets.
+- Random Forest Classifier: Robust and handles missing values well.
+- Logistic Regression: Highly interpretable and performs well with binary classification.
+
+### Big Mart Sales Prediction
+- XGBoost: Powerful gradient boosting framework.
+- Random Forest Classifier: Ensemble method that reduces overfitting.
+- Support Vector Classifier: Effective in high-dimensional spaces.
+
+### Calorie Burnt Prediction
+- XGBoost: Powerful gradient boosting framework.
+- Random Forest Classifier: Ensemble method that reduces overfitting.
+- Support Vector Classifier: Effective in high-dimensional spaces.
+
+
