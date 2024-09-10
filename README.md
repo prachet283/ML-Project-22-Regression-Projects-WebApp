@@ -72,4 +72,8 @@ This will launch the web app in your default web browser. You can select the des
 ### Calories Burnt Prediction
 **Description**: Predicts the number of calories burnt based on physical activities, age, weight, and duration of exercise.
 
-
+## Technologies Used
+- **Programming Language**: Python
+- **Web Framework**: Streamlit
+- **Machine Learning Libraries**: Scikit-learn, XGBoost
+- **Data Analysis and Visualization**: Pandas, NumPy, Matplotlib, Seaborn
