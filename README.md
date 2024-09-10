@@ -104,9 +104,9 @@ Each classification project was developed through the following steps:
 The top 3 models for each classification project are as follows:
 
 ### House Price Prediction
-- Support Vector Classifier: Effective in high-dimensional spaces.
-- XGBoost: Boosting algorithm known for high performance.
-- Random Forest Classifier: Ensemble method that reduces overfitting.
+- Linear Regression: Simple and interpretable.
+- Random Forest Regressor: Effective for high-dimensional data.
+- XGBoost Regressor: Known for its high performance.
 
 ### Car Price Prediction
 - Logistic Regression: Interpretable and performs well with classification.
