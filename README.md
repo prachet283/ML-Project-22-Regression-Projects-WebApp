@@ -77,3 +77,24 @@ This will launch the web app in your default web browser. You can select the des
 - **Web Framework**: Streamlit
 - **Machine Learning Libraries**: Scikit-learn, XGBoost
 - **Data Analysis and Visualization**: Pandas, NumPy, Matplotlib, Seaborn
+
+## Model Development Process
+
+Each classification project was developed through the following steps:
+
+1. **Importing the Dependencies**
+2. **Exploratory Data Analysis (EDA)**
+3. **Data Preprocessing**
+    - Handling missing values
+    - Handling outliers
+    - Label encoding/One-hot encoding
+    - Standardizing the data
+4. **Model Selection**
+    - Selected the most common 5 regression models
+    - Trained each model and checked cross-validation scores
+    - Chose the top 3 models based on cross-validation scores
+5. **Model Building and Evaluation**
+    - Selected best features using Recursive Feature Elimination (RFE)
+    - Performed hyperparameter tuning using Grid Search CV
+    - Built the final model with the best hyperparameters and features
+    - Evaluated the model using mean squared error, R-squared score, and other relevant metrics
