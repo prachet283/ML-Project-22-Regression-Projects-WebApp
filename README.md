@@ -124,13 +124,13 @@ The top 3 models for each classification project are as follows:
 - XGBoost: Boosting algorithm known for high performance.
 
 ### Big Mart Sales Prediction
+- Linear Regression: Simple and interpretable.
+- Lasso Regression: Linear model with L1 regularization to handle multicollinearity and feature selection effectively.
 - XGBoost: Powerful gradient boosting framework.
-- Random Forest Classifier: Ensemble method that reduces overfitting.
-- Support Vector Classifier: Effective in high-dimensional spaces.
 
 ### Calorie Burnt Prediction
-- XGBoost: Powerful gradient boosting framework.
+- K-Nearest Neighbour: Simple algorithm that works well with small datasets.
 - Random Forest Classifier: Ensemble method that reduces overfitting.
-- Support Vector Classifier: Effective in high-dimensional spaces.
+- XGBoost: Powerful gradient boosting framework.
 
 
