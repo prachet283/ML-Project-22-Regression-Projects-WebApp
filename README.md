@@ -119,9 +119,9 @@ The top 3 models for each classification project are as follows:
 - XGBoost: Boosting algorithm known for high performance.
 
 ### Medical Insurance Cost Prediction
-- XGBoost: Excellent performance with complex datasets.
-- Random Forest Classifier: Robust and handles missing values well.
-- Logistic Regression: Highly interpretable and performs well with binary classification.
+- K-Nearest Neighbour: Simple algorithm that works well with small datasets.
+- Random Forest Regressor: Effective for high-dimensional data.
+- XGBoost: Boosting algorithm known for high performance.
 
 ### Big Mart Sales Prediction
 - XGBoost: Powerful gradient boosting framework.
