@@ -109,9 +109,9 @@ The top 3 models for each classification project are as follows:
 - XGBoost Regressor: Known for its high performance.
 
 ### Car Price Prediction
-- Logistic Regression: Interpretable and performs well with classification.
-- XGBoost: Boosting algorithm known for high performance.
-- K-Nearest Neighbour: Simple algorithm that works well with small datasets.
+- Linear Regression: Simple and interpretable.
+- Random Forest Regressor: Effective for high-dimensional data.
+- XGBoost Regressor: Known for its high performance.
 
 ### Gold Price Prediction
 - Logistic Regression: Interpretable and performs well with classification.
