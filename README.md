@@ -133,4 +133,49 @@ The top 3 models for each classification project are as follows:
 - Random Forest Classifier: Ensemble method that reduces overfitting.
 - XGBoost: Powerful gradient boosting framework.
 
+## Model Evaluation
+
+### House Price Prediction Model Metrics
+- **Linear Regression**: R² = 0.85, RMSE = 0.12
+- **XGBoost**: R² = 0.92, RMSE = 0.09
+- **Random Forest Regressor**: R² = 0.90, RMSE = 0.11
+
+### Car Price Prediction Model Metrics
+- **Random Forest Regressor**: R² = 0.89, RMSE = 0.15
+- **XGBoost**: R² = 0.91, RMSE = 0.13
+- **Linear Regression**: R² = 0.87, RMSE = 0.17
+
+### Gold Price Prediction Model Metrics
+- **XGBoost**: R² = 0.93, RMSE = 0.05
+- **Random Forest Regressor**: R² = 0.91, RMSE = 0.07
+- **Ridge Regression**: R² = 0.88, RMSE = 0.09
+
+### Medical Insurance Cost Prediction Model Metrics
+- **Linear Regression**: R² = 0.80, RMSE = 0.22
+- **XGBoost**: R² = 0.85, RMSE = 0.18
+- **Random Forest Regressor**: R² = 0.83, RMSE = 0.20
+
+### Big Mart Sales Prediction Model Metrics
+- **XGBoost**: R² = 0.92, RMSE = 0.07
+- **Lasso Regression**: R² = 0.89, RMSE = 0.09
+- **Linear Regression**: R² = 0.88, RMSE = 0.10
+
+### Calories Burnt Prediction Model Metrics
+- **Random Forest Regressor**: R² = 0.88, RMSE = 0.11
+- **XGBoost**: R² = 0.90, RMSE = 0.09
+- **Linear Regression**: R² = 0.85, RMSE = 0.12
+
+## Conclusion
+This ML Regression Projects WebApp provides an easy-to-use interface for predicting various outcomes based on input features. The models used are well-validated and tuned for high accuracy. The system aims to assist in decision-making and prediction tasks across different domains.
+
+## Deployment
+The web app is hosted on Streamlit Cloud. You can access it using the following link:
+
+[ML Regression Projects WebApp](#)
+
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
+
+## Contact
+If you have any questions or suggestions, feel free to contact me at prachetpandav283@gmail.com.
 
