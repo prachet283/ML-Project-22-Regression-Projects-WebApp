@@ -136,14 +136,14 @@ The top 3 models for each classification project are as follows:
 ## Model Evaluation
 
 ### House Price Prediction Model Metrics
-- **Linear Regression**: R² = 0.85, RMSE = 0.12
-- **XGBoost**: R² = 0.92, RMSE = 0.09
-- **Random Forest Regressor**: R² = 0.90, RMSE = 0.11
+- **Linear Regression**: R² = 0.99999
+- **Random Forest Regressor**: R² = 0.99999
+- **XGBoost**: R² = 0.99998
 
 ### Car Price Prediction Model Metrics
-- **Random Forest Regressor**: R² = 0.89, RMSE = 0.15
-- **XGBoost**: R² = 0.91, RMSE = 0.13
-- **Linear Regression**: R² = 0.87, RMSE = 0.17
+- **Random Forest Regressor**: R² = 0.66816
+- **XGBoost**: R² = 0.63702
+- **Linear Regression**: R² = 0.47672
 
 ### Gold Price Prediction Model Metrics
 - **XGBoost**: R² = 0.93, RMSE = 0.05
