@@ -146,9 +146,9 @@ The top 3 models for each classification project are as follows:
 - **Linear Regression**: R² = 0.47672
 
 ### Gold Price Prediction Model Metrics
-- **XGBoost**: R² = 0.93, RMSE = 0.05
-- **Random Forest Regressor**: R² = 0.91, RMSE = 0.07
-- **Ridge Regression**: R² = 0.88, RMSE = 0.09
+- **XGBoost**: R² = 0.98654
+- **Random Forest Regressor**: R² = 0.98880
+- **K Neighbors Regressor**: R² = 0.98934
 
 ### Medical Insurance Cost Prediction Model Metrics
 - **Linear Regression**: R² = 0.80, RMSE = 0.22
