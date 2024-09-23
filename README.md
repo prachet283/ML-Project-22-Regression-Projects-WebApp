@@ -156,9 +156,9 @@ The top 3 models for each classification project are as follows:
 - **Random Forest Regressor**: R² = 0.83, RMSE = 0.20
 
 ### Big Mart Sales Prediction Model Metrics
-- **XGBoost**: R² = 0.92, RMSE = 0.07
-- **Lasso Regression**: R² = 0.89, RMSE = 0.09
-- **Linear Regression**: R² = 0.88, RMSE = 0.10
+- **XGBoost**: R² = 0.61418
+- **Lasso Regression**: R² = 0.57886
+- **Linear Regression**: R² = 0.57842
 
 ### Calories Burnt Prediction Model Metrics
 - **Random Forest Regressor**: R² = 0.88, RMSE = 0.11
