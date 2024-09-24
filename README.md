@@ -151,9 +151,9 @@ The top 3 models for each classification project are as follows:
 - **K Neighbors Regressor**: R² = 0.98934
 
 ### Medical Insurance Cost Prediction Model Metrics
-- **Linear Regression**: R² = 0.80, RMSE = 0.22
-- **XGBoost**: R² = 0.85, RMSE = 0.18
-- **Random Forest Regressor**: R² = 0.83, RMSE = 0.20
+- **Linear Regression**: R² = 0.86308
+- **XGBoost**: R² = 0.86308
+- **Random Forest Regressor**: R² = 0.87258
 
 ### Big Mart Sales Prediction Model Metrics
 - **XGBoost**: R² = 0.61418
