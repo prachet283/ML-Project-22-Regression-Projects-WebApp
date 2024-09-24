@@ -161,9 +161,9 @@ The top 3 models for each classification project are as follows:
 - **Linear Regression**: R² = 0.57842
 
 ### Calories Burnt Prediction Model Metrics
-- **Random Forest Regressor**: R² = 0.88, RMSE = 0.11
-- **XGBoost**: R² = 0.90, RMSE = 0.09
-- **Linear Regression**: R² = 0.85, RMSE = 0.12
+- **Random Forest Regressor**: R² = 0.99847
+- **XGBoost**: R² = 0.99935
+- **K Neighbors Regressor**: R² = 0.99513
 
 ## Conclusion
 This ML Regression Projects WebApp provides an easy-to-use interface for predicting various outcomes based on input features. The models used are well-validated and tuned for high accuracy. The system aims to assist in decision-making and prediction tasks across different domains.
